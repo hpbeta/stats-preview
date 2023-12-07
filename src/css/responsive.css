@@ -1,0 +1,33 @@
+
+@media(max-width:768px){
+    body{
+        padding: 20px 10px;
+    }
+    .card-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .card-container .right-container{
+        content: url(../images/image-header-mobile.jpg)center center;
+        width: 100%; 
+    }
+    .card-container .info-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+    .card-container .info-text .title{
+     margin-top: -10px;
+    }
+    .card-container .info-text .paragraph-info{
+        margin-top: 15px;
+        line-height: 30px;
+    }
+    .card-container .info .info-numbers{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 18px;
+    }
+}
